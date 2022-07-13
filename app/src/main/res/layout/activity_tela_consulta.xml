@@ -19,6 +19,7 @@
             android:id="@+id/tv_titulo_consulta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="monospace"
             android:text="Contatos"
             android:textAlignment="center"
             android:textColor="@color/black"
@@ -38,6 +39,7 @@
                 android:id="@+id/tv_nome_consulta"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="monospace"
                 android:text="Nome:"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
@@ -47,7 +49,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -59,6 +63,7 @@
                 android:id="@+id/tv_telefone_consulta"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="monospace"
                 android:text="Telefone:"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
@@ -68,7 +73,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -87,8 +94,11 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:backgroundTint="@color/black"
+                android:fontFamily="monospace"
                 android:onClick="registro_anterior"
-                android:text="Anterior" />
+                android:text="Anterior"
+                android:textColor="@color/GhostWhite"
+                android:textStyle="bold" />
 
             <Space
                 android:layout_width="wrap_content"
@@ -101,8 +111,11 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:backgroundTint="@color/black"
+                android:fontFamily="monospace"
                 android:onClick="proximo_registro"
-                android:text="Próximo" />
+                android:text="Próximo"
+                android:textColor="@color/GhostWhite"
+                android:textStyle="bold" />
 
             <Space
                 android:layout_width="wrap_content"
@@ -136,7 +149,8 @@
                 android:onClick="fechar_tela"
                 android:text="Voltar"
                 android:textAlignment="center"
-                android:textColor="@color/GhostWhite" />
+                android:textColor="@color/GhostWhite"
+                android:textStyle="bold" />
 
             <Space
                 android:layout_width="wrap_content"
